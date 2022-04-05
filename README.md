@@ -40,4 +40,7 @@ To run the program :
 
 ------------------------------
 Author
+
 Ihor [telegram](https://t.me/iddqdd42)
+
+Mail: <b>lugburz.hr</b> on google's mail.
