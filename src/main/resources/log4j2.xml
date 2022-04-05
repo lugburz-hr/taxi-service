@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="warn">
+    <Appenders>
+        <File name="LogToFile" fileName = "ABSOLUTE_PATH">
+            <PatternLayout pattern="%d [%t] %-5level s%logger{36}:%L - %msg%n"/>
+        </File>
+        <File name="RootToFile" fileName = "ABSOLUTE_PATH">
+            <PatternLayout pattern="%d [%t] %-5level s%logger{36}:%L - %msg%n"/>
+        </File>
+    </Appenders>
+    <Loggers>
+        <Logger name = "taxi.service" level="info" additivity="false">
+            <AppenderRef ref="LogToFile" />
+        </Logger>
+        <Root level="fatal">
+            <AppenderRef ref="RootToFile"/>
+        </Root>
+    </Loggers>
+</Configuration>
